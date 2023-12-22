@@ -1,0 +1,107 @@
+textarea {
+    resize: none;
+}
+
+body {
+    background-color: #F7ECDE;
+    color: black;
+}
+
+h1 {
+font-family: 'Pacifico', cursive;
+ color: #352e28;
+ font-size: 3.2rem;
+ line-height: -10px;
+}
+
+h2 {
+    font-family: "Righteous", cursive;
+    font-size: 1.65rem;
+    color: linear-gradient(to right, #3ca55c, #b5ac49);
+    border-top: 1px dashed black;
+    font-family: 'Righteous', sans-serif;
+}
+
+.firstBookmark{
+    color: #3FA55B;
+}
+
+.secondBookmark{
+    color:#B3AC49;
+}
+#siteNameInput:focus,
+#siteUrlInput:focus {
+    box-shadow: 3px 2px 4px 2px #B3AC49, -3px -2px 4px 2px #B3AC49;
+}
+#siteNameInput ,
+#siteUrlInput {
+    border-color: #B3AC49;
+
+}
+
+.submitBtn{
+    background-color: #2ea3a2; ;
+    color: #fff;
+    padding: 6px 40px;
+}
+
+.submitBtn:hover {
+    background-color:#8d9ad3;
+    color: #fff;
+}
+
+.submitDiv{
+border-bottom: 1px dashed black ;
+}
+.visitBtn {
+    background-color: #9EB23B;
+}
+
+.deleteBtn {
+    background-color:#EB1D36;
+}
+
+.visitBtn:hover {
+    background-color:#8A9E23;
+}
+
+.deleteBtn:hover {
+    background-color:#D30820;
+}
+
+.red , .orange , .green {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.green {
+    background-color: green;
+}
+
+
+.wrongInputCard {
+    width: 450px;
+    height: 250px;
+    background-color: #FFFFFF;
+    margin: auto;
+    border-radius: 4px;
+    z-index: 10;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.gradient {
+    background: linear-gradient(to right, #f32170, 
+             #ff6b08, #cf23cf, #eedd44); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+}
